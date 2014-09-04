@@ -1,4 +1,4 @@
-DopaBase::Application.routes.draw do
+BaseTest::Application.routes.draw do
   mount RailsAdmin::Engine => '/superadmin', as: 'rails_admin'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

@@ -13,4 +13,4 @@
 # Change the app name below and move the key to your application.yml file, replacing
 # it with whatever ENV['something_here'] key you give it
 
-DopaBase::Application.config.secret_key_base = ENV['secret_key_base']
+BaseTest::Application.config.secret_key_base = ENV['secret_key_base']

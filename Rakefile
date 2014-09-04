@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-DopaBase::Application.load_tasks
+BaseTest::Application.load_tasks
